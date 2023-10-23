@@ -1,0 +1,100 @@
+html {
+    background: radial-gradient(circle at 05% 50%, rgb(1, 6, 9) 0%, rgb(4, 50, 76) 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-image: url(../images/shark\ headers.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border-color: rgb(88, 157, 192);
+    border-style: outset;
+    border-width: 5px;
+    padding: 10px;
+  }
+  
+  
+  #logo_title {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  #tubarão_fofo {
+    width: 60px;
+    margin-right: 10px; 
+    border: solid;
+    border-radius: 20%;
+    border-color: rgb(16, 143, 194);
+  }
+
+  h1 {
+    margin-left: 0%; /* Remove the default margin on h1 */
+    color: white;
+    margin-right: 20%;
+    font-size: 3rem;
+  }
+  
+  #especies-title {
+    margin-left: 20%; /* Remove the default margin on h1 */
+    color: white;
+    margin-right: 20%;
+    font-size: 3rem;
+  }
+  
+  div{
+    margin: 7% 0% 
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin-left: 15px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  
+  .items_child:hover {
+    transform: translate(2px,3px);
+  }
+
+  p {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2rem;
+  }
+
+  .imagem-especies{
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+    margin-right: 20%;
+  }
+
+  h1 #banner-title {
+    margin: 0px;
+  }
+
+  .container{
+    height: 0px;
+  }
